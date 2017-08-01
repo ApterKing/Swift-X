@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "Swift-X"
-  s.version      = "0.0.5"
+  s.version      = "0.1.0"
   s.summary      = "Swift-X."
 
   s.description  = <<-DESC
@@ -30,12 +30,12 @@ Pod::Spec.new do |s|
 
   s.subspec "Extensions" do |ss|
   	ss.source_files = "Swift-X/Classes/Extensions/**/*.swift"
- 	  ss.frameworks = "Foundation", "Foundation", "UIKit"
+ 	ss.frameworks = "Foundation", "Foundation", "UIKit"
   end
 
   s.subspec "UIKit" do |ss|
   	ss.source_files = "Swift-X/Classes/UIKit/**/*.swift"
- 	  ss.frameworks = "UIKit"
+ 	ss.frameworks = "UIKit"
   end
 
 end

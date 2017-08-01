@@ -22,7 +22,7 @@ pod "Swift-X"
 
 ## Author
 
-wangcccong@foxmail.com, wangcccong@outlook.com
+ApterKing, wangcccong@foxmail.com
 
 ## License
 
