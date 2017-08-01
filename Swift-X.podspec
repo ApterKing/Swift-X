@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "Swift-X"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Swift-X."
 
   s.description  = <<-DESC

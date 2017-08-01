@@ -17,6 +17,7 @@
 		4C98B610BB8AEFFA2A66CD865E5E6F8E /* Pods-Swift-X_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 210949D54F393165911E04ABA6E978D4 /* Pods-Swift-X_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E37BE211F0C80C000FE9A63 /* XBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37BE1D1F0C7FE300FE9A63 /* XBaseViewController.swift */; };
 		6E37BE221F0C80C300FE9A63 /* XBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37BE1F1F0C801A00FE9A63 /* XBaseNavigationController.swift */; };
+		6E445FD31F302E7800AA395D /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E445FD21F302E7800AA395D /* UIViewController+Extension.swift */; };
 		6E7A8E54E194CE2DC5ABEEBC195C26BF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502A46324F640F851E41D572EB0E94E /* UIView+Extension.swift */; };
 		6EC3EDF55AB3F57638EAA75E154162F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		92D846B42BE38C1FA71600194C570941 /* Swift-X-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1CBFD37255C3AB756A337DC654418E /* Swift-X-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,6 +64,7 @@
 		69C4488B6EB1CE62932CE4212F017827 /* Swift-X.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Swift-X.modulemap"; sourceTree = "<group>"; };
 		6E37BE1D1F0C7FE300FE9A63 /* XBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XBaseViewController.swift; sourceTree = "<group>"; };
 		6E37BE1F1F0C801A00FE9A63 /* XBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XBaseNavigationController.swift; sourceTree = "<group>"; };
+		6E445FD21F302E7800AA395D /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		7BE2D2A5344AC4FD3A3477A5E156F4A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		877B3451F219FAA3D5565AC59F025E60 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		8CBDAE35D315631E7FDA3182413820EE /* Pods-Swift-X_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swift-X_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -279,6 +281,7 @@
 				6511C4290BCA5BE39752D6BF5DAB6564 /* UIImage+Extension.swift */,
 				C95FC0CAA956C3CD5906E6E62377E404 /* UIScreen+Extension.swift */,
 				5502A46324F640F851E41D572EB0E94E /* UIView+Extension.swift */,
+				6E445FD21F302E7800AA395D /* UIViewController+Extension.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E445FD31F302E7800AA395D /* UIViewController+Extension.swift in Sources */,
 				AA2CA20FDB8CAF72339C1DCE29288D1D /* Pods-Swift-X_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
