@@ -1,0 +1,20 @@
+PODS:
+  - Swift-X (0.0.4):
+    - Swift-X/Extensions (= 0.0.4)
+    - Swift-X/UIKit (= 0.0.4)
+  - Swift-X/Extensions (0.0.4)
+  - Swift-X/UIKit (0.0.4)
+
+DEPENDENCIES:
+  - Swift-X (from `../`)
+
+EXTERNAL SOURCES:
+  Swift-X:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Swift-X: 0d60ca54403bd61e6bab49c532a95b732ac41bc7
+
+PODFILE CHECKSUM: a2737ebb5538f60a42fc1e018a222fead2282bbc
+
+COCOAPODS: 1.2.1

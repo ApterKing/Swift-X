@@ -1,0 +1,6 @@
+framework module Swift_X {
+  umbrella header "Swift-X-umbrella.h"
+
+  export *
+  module * { export * }
+}
