@@ -1,9 +1,9 @@
 PODS:
-  - Swift-X (0.0.4):
-    - Swift-X/Extensions (= 0.0.4)
-    - Swift-X/UIKit (= 0.0.4)
-  - Swift-X/Extensions (0.0.4)
-  - Swift-X/UIKit (0.0.4)
+  - Swift-X (0.1.1):
+    - Swift-X/Extensions (= 0.1.1)
+    - Swift-X/UIKit (= 0.1.1)
+  - Swift-X/Extensions (0.1.1)
+  - Swift-X/UIKit (0.1.1)
 
 DEPENDENCIES:
   - Swift-X (from `../`)
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Swift-X: 0d60ca54403bd61e6bab49c532a95b732ac41bc7
+  Swift-X: 8dfbec1c18e1ff559702b60fbce21e050837ee21
 
 PODFILE CHECKSUM: a2737ebb5538f60a42fc1e018a222fead2282bbc
 

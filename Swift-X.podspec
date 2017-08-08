@@ -36,6 +36,7 @@ Pod::Spec.new do |s|
   s.subspec "UIKit" do |ss|
   	ss.source_files = "Swift-X/Classes/UIKit/**/*.swift"
  	ss.frameworks = "UIKit"
+    ss.dependency 'Swift-X/Extensions'
   end
 
 end

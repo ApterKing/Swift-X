@@ -1,8 +1,8 @@
 {
   "name": "Swift-X",
-  "version": "0.0.4",
+  "version": "0.1.1",
   "summary": "Swift-X.",
-  "description": "Extensions: extension of UIColor、UIImage etc.\nUIKit: UI",
+  "description": "Extension: extension of UIColor、UIImage etc.\nUIKit: UI",
   "homepage": "https://github.com/ApterKing/Swift-X",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/ApterKing/Swift-X.git",
-    "tag": "#{s.version}"
+    "tag": "0.1.1"
   },
   "requires_arc": true,
   "subspecs": [
