@@ -11,7 +11,7 @@ import UIKit
 open class XTextView: UITextView {
 
     private lazy var placeholderLabel: UILabel = {
-        $0.textColor = UIColor.lightText
+        $0.textColor = UIColor.lightGray
         $0.font = UIFont.systemFont(ofSize: 13)
         $0.textAlignment = .left
         $0.numberOfLines = 0
